@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Segoe Print !important;
+  padding: 0 120px;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  /* background: linear-gradient(90deg, #445555, #8b8547); */
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #17191a);
+  border-radius: 7px;
+}
+
+.soc-media {
+  margin-top: 70%;
+}
+
+.soc-media-fb {
+  font-weight: 900;
+  font-size: xx-large;
+  margin-right: 12px;
+}
+.soc-media-linked {
+  font-weight: 900;
+  font-size: xx-large;
+  margin-right: 12px;
+}
+.soc-media-git {
+  font-weight: 900;
+  font-size: xx-large;
+  margin-right: 12px;
+}
+.soc-media-gm {
+  font-weight: 900;
+  font-size: xx-large;
+  margin-right: 12px;
+}
+.soc-media-fb:hover {
+  font-weight: 900;
+  font-size: xx-large;
+  color: #091561;
+}
+.soc-media-linked:hover {
+  font-weight: 900;
+  font-size: xx-large;
+  color: #0f5555b9;
+}
+.soc-media-git:hover {
+  font-weight: 900;
+  font-size: xx-large;
+  color: #333e44;
+}
+.soc-media-gm:hover {
+  font-weight: 900;
+  font-size: xx-large;
+  color: #832626;
+}

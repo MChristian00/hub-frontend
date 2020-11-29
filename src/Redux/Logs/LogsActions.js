@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const URI = "http://localhost:8080/api/user/";
+const URI = "http://localhost:8080/api/auth/";
 
 export const signUpAct = (User, props) => {
   return (dispatch) => {

@@ -13,7 +13,6 @@ import Login from "./Components/Auth/Login";
 import Logout from "./Components/Auth/Logout";
 import SignUp from "./Components/Auth/SignUp";
 import Footer from "./Components/Layout/Footer";
-// import FontAwesomeIcons from './assets/FontAwesome'
 
 export class App extends Component {
   render() {
@@ -41,7 +40,6 @@ export class App extends Component {
                   </React.Fragment>
                 )}
               />
-              {/* <Route path="/awesomeicons" component={FontAwesomeIcons} /> */}
               <Route path="/myblogs" component={OwnBlogs} />
               <Route path="/about" component={About} />
               <Route path="/signup" component={SignUp} />

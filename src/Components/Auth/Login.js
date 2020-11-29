@@ -37,8 +37,6 @@ function Login(props) {
         />
         <input type="submit" value="LOGIN" className="form-control" />
       </form>
-      <h1><a href="http://localhost:8080/api/auth/login/google">LOGIN WITH GOOGLE</a></h1>
-      <h1><a href="http://localhost:8080/api/auth/login/facebook">LOGIN WITH FACEBOOK</a></h1>
     </div>
   );
 }
